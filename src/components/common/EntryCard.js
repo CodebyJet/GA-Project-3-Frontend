@@ -111,7 +111,7 @@ export default function EntryCard({
           </Typography>
         )}
         </Box>
-        {entryPic && <ProfilePicture cloudinaryImageId={entryPic} size={100} />}
+        {entryPic && <ProfilePicture cloudinaryImageId={entryPic} size={300} />}
       </CardContent>
       {(AUTH.isOwner(userId) || AUTH.getPayload().isAdmin) && (
         <CardActions>
