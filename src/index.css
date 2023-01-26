@@ -28,15 +28,15 @@ code {
 }
 
 .heroPage{
-    background-image: url('./assets/globe-35.gif');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      padding-top: 0px;
-      margin-top: 0px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
+  background-image: url('./assets/globe-35.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .lightBlue{

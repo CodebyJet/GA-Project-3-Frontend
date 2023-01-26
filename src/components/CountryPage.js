@@ -13,7 +13,6 @@ import {
   Button,
   Typography
 } from '@mui/material';
-import { padding } from '@mui/system';
 
 export default function CountryPage() {
   const [isLoggedIn] = useAuthenticated();

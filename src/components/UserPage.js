@@ -118,7 +118,7 @@ export default function UserPage() {
             justifyContent: 'space-between'
           }}
         >
-          <Box sx={{ display: 'flex', flexDirection: 'column', width: '50%' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', width: '65%' }}>
             {singleUser?.entries?.map((entry) => (
               <EntryCard
                 key={entry._id}
