@@ -10,10 +10,11 @@ https://codebyjetmap.netlify.app/
 ----
 
 ## Technologies Used: 
-To complete this project I used:
- - JavaScript | Express for the back-end
- - JavaScript and React for the front.
- - using MUI for styling
+ - JavaScript | Express for the back-end.
+ - JavaScript | SASS | React for the front.
+ - MUI for styling.
+ - Development Tools: Visual Code Studio.
+
 
 ## Setup:
 Clone both repos locally, then open them in VS code, using:
@@ -28,25 +29,30 @@ Frontend Repo - https://github.com/CodebyJet/GA-Project-3-Frontend
 
 ## Brief:
 With this project, we were given the brief to build a full stack app, the app could be of our own choice, as long as it was:
-- A MERN stack app
-- used authentication
-- at least two models on the back end
+- A MERN stack app (MongoDb, Express, React and Node).
+- used authentication.
+- at least two models on the back end.
 - multiple components on the front end.
+
 ---
 
 ## Planning:
-The first day of the project, as a group, be brainstormed possible ideas. These ranged from:
+The first day of the project, as a group, we brainstormed possible ideas. These ranged from:
 - a shopping list 
 - a messaging board, like myspace
 We settled on the idea of having a hybrid travel app. Users could register and write posts about the countries they had visited - and as the amount of comments on a country increased, it would change colour on a world map.
+We all used the same Excalidraw board, to plan and brainstorm what functions we may need.
 
 <img src="./readMe_extras/sketch.png">
 
-## The tasks
-Before we all jumped into it, we looked to see if there was any react components that would do the effect we were after. Luckily there was, and we went with React Simple Maps.
-Next we sketched out what functions and components we believed we would need, and made a Trello board to divide the tasks up.
+We looked to see if there was any react components that would do the effect we were after. Luckily there was, and we went with React Simple Maps.
+Next we sketched out what functions and components we believed we would need, and made a Trello board to divide the tasks up. These were allocated based on how comfortable you felt doing the task.
 
 <img src="./readMe_extras/Trello.jpg">
+
+You were free to put yourself on the task, move it into the Doing section, so no one doubled up - Unless you were fixing something someone had made.
+
+---
 
 ## Stage 1: The backend
 With the tasks divided up, and a rough idea in motion. We started work on the back end. I created the index.js and the helpers.js, this was a simple start server function, connecting to Monogdb - As the project went on this was expanded to use CORS and express.json.
@@ -103,7 +109,16 @@ While I was fixing the component, Nathan was working on creating the map page, a
 This bit was slightly rushed, as we lost time fixing some components and getting the map to work.
 
 ## Wins?
-Overall, my biggest win from the project, was just working through the bugs we had, and solving them.
+- Overall, my biggest win from the project, was just working through the bugs we had, and solving them.
+- A more thorough approach to stand ups.
+- Learnt more on how to fully construct an app, and seeing how the individual parts of it all, fitted together.
+
+## Challenges?
+- Next time would be to pick a more regularly updated component - As previously stated, the React Simple Maps, was not as up-to-date as we had hoped. So next  time, I would explore the options available, more thoroughly.
+- Better communication on what tasks were fully completed. One of the team was more eager to mark off tasks as completed, when they had not been tested, and were just lifted from MUI - If I was to start this again, in the planning stage, I would clarify what complete meant to everyone, as it turned out we had different versions of complete in our heads.
+
+## Bugs?
+On the map, when hovering over a country, the continent does jitter and shake - I believe this is to do with the styling.
 
 ## Future Improvements:
 In future iterations, I would to implement a carousel effect on the home page, so go through entries people had made about countries. Also rather than just the flag of the country, if there is a database of just some nice scenic views from that country, would be nicer.
